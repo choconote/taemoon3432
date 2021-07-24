@@ -1,4 +1,4 @@
-### Hi there 👋
+![moon's GitHub stats](https://github-readme-stats.vercel.app/api?username=taemoon3432&show_icons=true&theme=default)
 
 <!--
 **taemoon3432/taemoon3432** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
