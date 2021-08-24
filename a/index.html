@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">javascript selector</h1>
+    <div class="container">
+        <ul id="list3" class="list">
+            <li class="red">li 1</li>
+            <li>li 2</li>
+            <li>li 3</li>
+            <li>li 4</li>
+        </ul>
+    </div>
+    <p>
+        ipsum inscribe
+    </p>
+    <script>
+        let firstTitle = document.getElementById('title'),
+        myList = document.getElementsByClassName('list'),
+        paragraphs = document.getElementsByTagName('p');
+        firstTitle.style.color = 'red';
+        myList[0].style.display = 'none';
+        for(let i = 0; i <= paragraphs.length; i++){
+            paragraphs[i].style.color = 'red';
+        }
+    </script>
+</body>
+</html>
